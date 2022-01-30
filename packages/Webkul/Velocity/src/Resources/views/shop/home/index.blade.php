@@ -44,7 +44,7 @@
     @else
         <link rel="preload" as="image" href="{{ asset('/themes/velocity/assets/images/banner.webp') }}">
     @endif
-    
+
     <style type="text/css">
         .product-price span:first-child, .product-price span:last-child {
             font-size: 18px;

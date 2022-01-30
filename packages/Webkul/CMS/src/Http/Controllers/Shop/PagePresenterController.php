@@ -35,6 +35,13 @@ class PagePresenterController extends Controller
     {
         $page = $this->cmsRepository->findByUrlKeyOrFail($urlKey);
 
+        if ($urlKey === "about-us") {
+            return view('shop::cms.about-us')->with('page', $page);
+        }
+        else if ($urlKey === "contact-us") {
+            return view('shop::cms.contact-us')->with('page', $page);
+        }
+
         return view('shop::cms.page')->with('page', $page);
     }
 }

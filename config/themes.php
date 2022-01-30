@@ -23,6 +23,13 @@ return [
             'name' => 'Velocity',
             'parent' => 'default'
         ],
+
+        'tactical' => [
+            'views_path' => 'resources/themes/tactical/views',
+            'assets_path' => 'public/themes/tactical/assets',
+            'name' => 'Tactical',
+            'parent' => 'default'
+        ],
     ],
 
     'admin-default' => 'default',
