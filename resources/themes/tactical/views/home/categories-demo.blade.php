@@ -24,7 +24,7 @@
             }
         }">
             <div class="banner banner-image">
-                <a href="product.html">
+                <a href="{{ route('shop.home.product') }}">
                     <img src="tactical/assets/images/demoes/demo7/banners/cats/banner-1.jpg" width="272" height="231"
                         alt="banner">
                 </a>
@@ -34,7 +34,7 @@
                 </div>
             </div><!-- End .banner -->
             <div class="banner banner-image">
-                <a href="product.html">
+                <a href="{{ route('shop.home.product') }}">
                     <img src="tactical/assets/images/demoes/demo7/banners/cats/banner-1.jpg" width="272" height="231"
                         alt="banner">
                 </a>
@@ -44,7 +44,7 @@
                 </div>
             </div><!-- End .banner -->
             <div class="banner banner-image">
-                <a href="product.html">
+                <a href="{{ route('shop.home.product') }}">
                     <img src="tactical/assets/images/demoes/demo7/banners/cats/banner-1.jpg" width="272" height="231"
                         alt="banner">
                 </a>
@@ -54,7 +54,7 @@
                 </div>
             </div><!-- End .banner -->
             <div class="banner banner-image">
-                <a href="product.html">
+                <a href="{{ route('shop.home.product') }}">
                     <img src="tactical/assets/images/demoes/demo7/banners/cats/banner-1.jpg" width="272" height="231"
                         alt="banner">
                 </a>
@@ -65,7 +65,7 @@
             </div><!-- End .banner -->
 
             <div class="banner banner-image">
-                <a href="product.html">
+                <a href="{{ route('shop.home.product') }}">
                     <img src="tactical/assets/images/demoes/demo7/banners/cats/banner-2.jpg" width="272" height="231"
                         alt="banner">
                 </a>
@@ -76,7 +76,7 @@
             </div><!-- End .banner -->
 
             <div class="banner banner-image">
-                <a href="product.html">
+                <a href="{{ route('shop.home.product') }}">
                     <img src="tactical/assets/images/demoes/demo7/banners/cats/banner-3.jpg" width="272" height="231"
                         alt="banner">
                 </a>
@@ -87,7 +87,7 @@
             </div><!-- End .banner -->
 
             <div class="banner banner-image">
-                <a href="shop.html">
+                <a href="{{ route('shop.home.shop') }}">
                     <img src="tactical/assets/images/demoes/demo7/banners/cats/banner-4.jpg" width="272" height="231"
                         alt="banner">
                 </a>
@@ -98,7 +98,7 @@
             </div><!-- End .banner -->
 
             <div class="banner banner-image">
-                <a href="shop.html">
+                <a href="{{ route('shop.home.shop') }}">
                     <img src="tactical/assets/images/demoes/demo7/banners/cats/banner-2.jpg" width="272" height="231"
                         alt="banner">
                 </a>

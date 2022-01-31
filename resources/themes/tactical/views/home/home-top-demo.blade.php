@@ -15,7 +15,7 @@
                             Starting At <b
                                 class="coupon-sale-text bg-secondary text-white d-inline-block">$<em
                                     class="align-text-top">199</em>99</b></h5>
-                        <a href="shop.html" class="btn btn-warning ls-10">HIRE BODYGUARD NOW</a>
+                        <a href="{{ route('shop.home.shop') }}" class="btn btn-warning ls-10">HIRE BODYGUARD NOW</a>
                     </div><!-- End .banner-layer -->
                 </div><!-- End .home-slide -->
             </div>
@@ -32,7 +32,7 @@
                                 <h3 class="m-b-2">Porto Watches</h3>
                                 <h4 class="m-b-2 text-secondary"><sup
                                         class="text-dark"><del>20%</del></sup>30%<sup>OFF</sup></h4>
-                                <a href="shop.html" class="btn btn-warning text-uppercase ls-12">HIRE BODYGUARD NOW</a>
+                                <a href="{{ route('shop.home.shop') }}" class="btn btn-warning text-uppercase ls-12">HIRE BODYGUARD NOW</a>
                                 <img src="tactical/assets/images/demoes/demo7/banners/brand-sm.png"
                                     style="background-color: #eee;" width="48" height="15" alt="brand" />
                             </div>
@@ -57,7 +57,7 @@
                             <div class="banner-layer banner-layer-middle text-center">
                                 <h3 class="m-b-1 ls-10">DEAL PROMOS</h3>
                                 <h4 class="ls-0 text-body">STARTING AT $99</h4>
-                                <a href="shop.html" class="btn btn-warning btn-black ls-10">HIRE BODYGUARD NOW</a>
+                                <a href="{{ route('shop.home.shop') }}" class="btn btn-warning btn-black ls-10">HIRE BODYGUARD NOW</a>
                             </div>
                         </div><!-- End .banner -->
                     </div>
@@ -76,7 +76,7 @@
                             <h3 class="text-white font1">Leather Jackets</h3>
                             <h5 class="coupon-sale-text text-white ls-0 p-0"><i class="ls-0 font1">UP
                                     TO</i><b class="text-white bg-secondary">$100</b><sub>OFF</sub></h5>
-                            <a href="shop.html"
+                            <a href="{{ route('shop.home.shop') }}"
                                 class="btn bg-white btn-lg ls-10 d-block d-lg-inline-block  text-dark">Get
                                 Yours!</a>
                         </div>

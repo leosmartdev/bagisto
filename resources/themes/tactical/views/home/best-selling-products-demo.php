@@ -6,7 +6,7 @@
             <div class="heading-spacer"></div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-2.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-2-2.jpg" width="175"
@@ -15,11 +15,11 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">caps</a>,
-                        <a href="shop.html" class="product-category">fashion</a>,
-                        <a href="shop.html" class="product-category">t-shirts</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">caps</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">fashion</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">t-shirts</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Jeans Pants</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Jeans Pants</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:100%"></span><!-- End .ratings -->
@@ -33,7 +33,7 @@
             </div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-7.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-7-2.jpg" width="175"
@@ -42,11 +42,11 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">Fashion</a>,
-                        <a href="shop.html" class="product-category">Shoes</a>,
-                        <a href="shop.html" class="product-category">Toys</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Fashion</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Shoes</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Toys</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Men Sports Cap</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Men Sports Cap</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:80%"></span><!-- End .ratings -->
@@ -60,7 +60,7 @@
             </div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-13.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-13-2.jpg" width="175"
@@ -69,11 +69,11 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">Fashion</a>,
-                        <a href="shop.html" class="product-category">Shoes</a>,
-                        <a href="shop.html" class="product-category">Toys</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Fashion</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Shoes</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Toys</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Men Black Glasses</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Men Black Glasses</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:80%"></span><!-- End .ratings -->
@@ -91,7 +91,7 @@
             <div class="heading-spacer"></div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-3.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-3-2.jpg" width="175"
@@ -100,9 +100,9 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">Fashion</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Fashion</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Jeana Trouser</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Jeana Trouser</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:0%"></span><!-- End .ratings -->
@@ -116,7 +116,7 @@
             </div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-5.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-5-2.jpg" width="175"
@@ -125,11 +125,11 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">Electronics</a>,
-                        <a href="shop.html" class="product-category">Fashion</a>,
-                        <a href="shop.html" class="product-category">Watches</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Electronics</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Fashion</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Watches</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Men Brown Belts</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Men Brown Belts</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:0%"></span><!-- End .ratings -->
@@ -143,7 +143,7 @@
             </div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-1.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-1-2.jpg" width="175"
@@ -152,11 +152,11 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">T-shirts</a>,
-                        <a href="shop.html" class="product-category">Toys</a>,
-                        <a href="shop.html" class="product-category">Trousers</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">T-shirts</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Toys</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Trousers</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Black Glasses</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Black Glasses</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:0%"></span><!-- End .ratings -->
@@ -174,7 +174,7 @@
             <div class="heading-spacer"></div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-7.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-7-2.jpg" width="175"
@@ -183,11 +183,11 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">Fashion</a>,
-                        <a href="shop.html" class="product-category">Shoes</a>,
-                        <a href="shop.html" class="product-category">Toys</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Fashion</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Shoes</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Toys</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Men Sports Cap</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Men Sports Cap</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:80%"></span><!-- End .ratings -->
@@ -201,7 +201,7 @@
             </div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-13.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-13-2.jpg" width="175"
@@ -210,11 +210,11 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">Fashion</a>,
-                        <a href="shop.html" class="product-category">Shoes</a>,
-                        <a href="shop.html" class="product-category">Toys</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Fashion</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Shoes</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Toys</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Men Black Glasses</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Men Black Glasses</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:80%"></span><!-- End .ratings -->
@@ -228,7 +228,7 @@
             </div>
             <div class="product-default left-details product-widget mb-2">
                 <figure>
-                    <a href="product.html">
+                    <a href="{{ route('shop.home.product') }}">
                         <img src="tactical/assets/images/demoes/demo7/products/product-5.jpg" width="175"
                             height="175" alt="product" />
                         <img src="tactical/assets/images/demoes/demo7/products/product-5-2.jpg" width="175"
@@ -237,11 +237,11 @@
                 </figure>
                 <div class="product-details">
                     <div class="category-list">
-                        <a href="shop.html" class="product-category">Electronics</a>,
-                        <a href="shop.html" class="product-category">Fashion</a>,
-                        <a href="shop.html" class="product-category">Watches</a>
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Electronics</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Fashion</a>,
+                        <a href="{{ route('shop.home.shop') }}" class="product-category">Watches</a>
                     </div>
-                    <h3 class="product-title"> <a href="product.html">Men Brown Belts</a> </h3>
+                    <h3 class="product-title"> <a href="{{ route('shop.home.product') }}">Men Brown Belts</a> </h3>
                     <div class="ratings-container">
                         <div class="product-ratings">
                             <span class="ratings" style="width:0%"></span><!-- End .ratings -->

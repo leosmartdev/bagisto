@@ -6,6 +6,34 @@ Route::group(['middleware' => ['web', 'locale', 'theme', 'currency']], function 
         'view' => 'shop::home.index'
     ])->name('shop.home.index');
 
+    Route::get('/shop', 'Webkul\Shop\Http\Controllers\HomeController@demo')->defaults('_config', [
+        'view' => 'shop::home.shop'
+    ])->name('shop.home.shop');
+
+    Route::get('/category', 'Webkul\Shop\Http\Controllers\HomeController@demo')->defaults('_config', [
+        'view' => 'shop::home.categories'
+    ])->name('shop.home.category');
+
+    Route::get('/category-list', 'Webkul\Shop\Http\Controllers\HomeController@demo')->defaults('_config', [
+        'view' => 'shop::home.category-list'
+    ])->name('shop.home.categorylist');
+
+    Route::get('/product', 'Webkul\Shop\Http\Controllers\HomeController@demo')->defaults('_config', [
+        'view' => 'shop::home.product'
+    ])->name('shop.home.product');
+
+    Route::get('/promotion', 'Webkul\Shop\Http\Controllers\HomeController@demo')->defaults('_config', [
+        'view' => 'shop::home.promotion'
+    ])->name('shop.home.promotion');
+
+    Route::get('/cart', 'Webkul\Shop\Http\Controllers\HomeController@demo')->defaults('_config', [
+        'view' => 'shop::home.cart'
+    ])->name('shop.home.cart');
+
+    Route::get('/checkout', 'Webkul\Shop\Http\Controllers\HomeController@demo')->defaults('_config', [
+        'view' => 'shop::home.checkout'
+    ])->name('shop.home.checkout');
+
     //subscription
     //subscribe
     Route::get('/subscribe', 'Webkul\Shop\Http\Controllers\SubscriptionController@subscribe')->name('shop.subscribe');

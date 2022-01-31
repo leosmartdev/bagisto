@@ -52,6 +52,11 @@ class HomeController extends Controller
         return view($this->_config['view'], compact('sliderData'));
     }
 
+    public function demo()
+    {
+        return view($this->_config['view']);
+    }
+
     /**
      * Loads the home page for the storefront if something wrong.
      *
